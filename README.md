@@ -24,4 +24,10 @@ viii. quit - Quit the shell.
 
 Group Members:
 
-1) 
+1) Vidit Vyas - 100586296
+
+2) Matthew Bernard - 100625495
+
+3) Umar Riaz - 
+
+4) Sohaib

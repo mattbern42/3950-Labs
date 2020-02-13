@@ -1,4 +1,6 @@
-## Operating Systems Lab 2 - MyShell
+## Operating Systems Lab 2
+
+#### Authors: Sohaib Mohiuddin, Umar Riaz, Matthew Bernard, Vidit Vyas
 
 ## Shell Help Guide
 
@@ -20,6 +22,6 @@ The following list of commands are supported on our shell.
 7. quit - Quit the shell.
 
 
-When running an external program such as a batch file with the appropriate commands, enter in the format `myshell program_name`. The shell will read through the content of the given file until end-of-file is reached, and display the results.
+When running an external program such as a batch file with the appropriate commands, enter in the format `myshell file_name`. The shell will read through the content of the given file until end-of-file is reached, and display the results.
 
 This shell supports input/output redirection in the form program_name arg1 arg2 < inputfile > outputfile. This will run the program_name with the 2 arguments. The input file in this command is replaced by inputfile, and the output file.

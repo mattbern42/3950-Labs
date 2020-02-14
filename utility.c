@@ -1,3 +1,11 @@
+/*
+Authors
+Sohaib Mohiuddin
+Umar Riaz
+Matthew Bernard
+Vidit Vyas
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

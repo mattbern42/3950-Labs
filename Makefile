@@ -1,3 +1,9 @@
+# Authors 						\
+Sohaib Mohiuddin				\
+Umar Riaz						\
+Matthew Bernard					\
+Vidit Vyas
+
 CC = clang
 CFLAGS = -Wall -Wextra -std=c99 -g
 LFLAGS = 

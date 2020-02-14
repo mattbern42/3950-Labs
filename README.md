@@ -1,6 +1,6 @@
-## Operating Systems Lab 2
-
 #### Authors: Sohaib Mohiuddin, Umar Riaz, Matthew Bernard, Vidit Vyas
+
+## Operating Systems Lab 2
 
 ## Shell Help Guide
 

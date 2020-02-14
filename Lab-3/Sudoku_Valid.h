@@ -1,8 +1,7 @@
 /*
- * Sudoku_Valid.h
- *
- *  Created on: Nov 4, 2015
- *      Author: alexander
+ *Name         : Sudoku_Checker.c
+ *Authors      : Sohaib Mohiuddin, Umar Riaz, Matthew Bernard, Vidit Vyas
+ *This controls the solver and validator
  */
 
 #ifndef SUDOKU_VALID_H_
@@ -11,4 +10,4 @@
 extern void valid(int numbers[9][9],int isSolved);
 
 
-#endif /* SUDOKU_VALID_H_ */
+#endif 

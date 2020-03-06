@@ -1,0 +1,45 @@
+A. Describe and discuss what memory allocation algorithms you could have used
+and justify your final design choice.
+Last 64  bytes of memory are reserved for the real_time process. If there
+is enough space to hold the data, then memory will be allocated. When the
+allocation process finishes memory gets freed.
+
+B. Describe and discuss the structures used by the dispatcher for queueing,
+dispatching, and allocating memory and other resources.
+The dispatcher uses 4 queues: real_time which is a FIFO queue, priority_1,
+priority_2, and priority_3 queues. The resources and memory are allocated
+depending on the priority.
+A struct is used to hold 2 printers, 1 scanner, 1 modem, 2 CDs,
+and 1024 megabytes of memory.
+
+C. Desrcibe and justify the overall structure of your program, describing the
+various modules and major functions.
+
+int alloc_mem(resources res, int size);
+  - allocates memory for process
+
+void free_mem(resources res, int index, int size);
+  - deallocates memory for process
+
+void load_dispatch(char *dispatch_file, node_t *queue);
+  - loads the dispatcher file into memory
+
+node_t *push(node_t *tail, proc process);
+  - pushes a process to the bottom of the queue
+
+extern node_t *pop(node_t *tail);
+  - pops a process from the top of the queue
+
+void tokenize_char(char *input, char **tokens);
+  - tokenizes the file using a comma as a tokenizer
+
+
+D. Discuss why such a multilevel dispatching scheme would be used, comparing
+it with schemes used by "real" operating systems. Outline shortcoming in such
+a scheme, suggesting improvements. Include the memory and resource allocation
+schemes in your discussion.
+
+Multiple queues deal with process that need to be done quickly a lot quicker
+since they run multiple processes at the same time. This allows the system to
+run the needed process immediately rather than having to wait till other
+processes finish.
